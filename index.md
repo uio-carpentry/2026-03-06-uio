@@ -211,7 +211,7 @@ This block displays the date and links to Google Calendar.
 {% endif %}
 
 {% comment %}
-SPECIAL REQUIREMENTS
+SPECIAL REQUIREMENTS ------------------ XXX adjusted by DT to match this course
 
 Modify the block below if there are any special requirements.
 {% endcomment %}
@@ -219,12 +219,13 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong>
   {% if online == "false" %}
     Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system. 
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  They need access to the UNIX bash shell (<a href="#setup">see below</a>). For Linux/Mac users, the default terminal usually provides this, Windows users need to install specific software. For this, they need administrator privileges --- for UiO laptops, temporary administrator rights can be requested from USIT. 
+  (Alternatively, advanced UiO Windows users may access the UNIX shell via the UiO Linux Desktop (available through programkiosk), or connect to a UNIX server they have access to via e.g. Putty, which is available at the UiO Software Center). 
 </p>
 
 {% comment %}
