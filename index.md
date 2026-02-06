@@ -224,8 +224,8 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They need access to the UNIX bash shell (<a href="#setup">see below</a>). For Linux/Mac users, the default terminal usually provides this, Windows users need to install specific software. For this, they need administrator privileges --- for UiO laptops, temporary administrator rights can be requested from USIT. 
-  (Alternatively, advanced UiO Windows users may access the UNIX shell via the UiO Linux Desktop (available through programkiosk), or connect to a UNIX server they have access to via e.g. Putty, which is available at the UiO Software Center). 
+  They need access to the UNIX bash shell (<a href="#setup">see below</a>). For Linux/Mac users, the default terminal usually provides this, **Windows users need to install specific software** . For this, they need administrator privileges -- for UiO laptops, temporary administrator rights can be requested from USIT. Git bash is easier to install and use, and does the job just as well, so although the Carpentries recommend Linux subsystem for Windows, the instructors' personal recommendation is to use git bash for beginners, no matter which Windows version they have (for UiO laptops it's always 11). 
+  (Alternatively, advanced UiO users may access the UNIX shell via the UiO Linux Desktop (available through programkiosk from a browser), or connect to a UNIX server they have access to (!) via e.g. Putty, which is available at the UiO Software Center). 
 </p>
 
 {% comment %}
